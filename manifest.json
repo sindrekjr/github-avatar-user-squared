@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "github-avatar-user-squared",
+  "version": "1.0",
+  "description": "Returns user avatars on github.com to squared format.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
